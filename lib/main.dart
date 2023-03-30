@@ -106,7 +106,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ) ??
                   "";
               lastMessage.text += response;
-
               setState(() {
                 messages = [lastMessage!, ...messages];
               });
