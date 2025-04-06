@@ -128,6 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
             }
           });
     } catch (e) {
+      // remove print
       debugPrint(e.toString());
     }
   }
